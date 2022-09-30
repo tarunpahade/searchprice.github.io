@@ -1,0 +1,80 @@
+pg1
+body{
+    overflow-x: hidden;
+}
+
+img{
+    width: 5em;
+    border-radius: 5em;
+}
+.food{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+.food-item{
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-content: center;
+    padding: 1%;
+}
+
+pg2
+.card{
+
+    padding: 1em;
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    
+
+}
+.heading{
+    width: 100vw;
+    display: block;
+    
+}
+.card-group{
+    overflow: auto;
+display: flex;
+white-space: nowrap;
+width: 100%;
+    
+}
+.alltext{
+    position: relative;
+    right: 0.75em;
+    top: 2em;
+}
+
+
+
+/* .cardss{
+    overflow: auto;
+display: flex;
+white-space: nowrap;
+width: 30em;
+
+} */
+.card1{
+    padding: 1em;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    border: 1px black;
+    border-style:groove;
+
+}
+.cardtxt{
+    position: relative;
+    right: 0.75em;
+    top: 2em;
+    width: 30px;
+}
+h3{
+    font-size: 15px;
+}
